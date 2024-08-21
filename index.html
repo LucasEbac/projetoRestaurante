@@ -21,22 +21,22 @@
             <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
                 <ul class="nav nav-pills d-block d-md-flex">
                     <li class="nav-item fw-bold">
-                        <a href="#eventos" class="nav-link">
+                        <a href="#sobre-o-restaurante" class="nav-link">
                             <i class="bi bi-house-door me-1"></i>
                             Sobre o Restaurante</a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="#" class="nav-link">
+                        <a href="#Eventos" class="nav-link">
                             <i class="bi bi-calendar-check me-1"></i>
                             Eventos</a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="#" class="nav-link">
+                        <a href="#cardapio" class="nav-link">
                             <i class="bi bi-card-text me-1"></i>
                             Nosso cardapio</a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="#" class="nav-link">
+                        <a href="fale-conosco" class="nav-link">
                             <i class="bi bi-chat-left-text me-1"></i>
                             Fale conosco</a>
                     </li>
@@ -100,7 +100,7 @@
         <section id="Eventos" class="pt-5 pb-5">
             <div class="container">
                 <div class="row mt-5">
-                    <h2 class="section-title text-center" class="text-colored">Para todas <span class="text-colored">ocasiões</span></h2>
+                    <h2 class="section-title text-center mb-5" class="text-colored">Para todas <span class="text-colored">ocasiões</span></h2>
                     <div class="row">
                     <div class="col-md-4">
                         <img src="imagens/aniversario.jpg" alt="" class="d-block w-100 rounded mb-2">
@@ -137,7 +137,9 @@
         <section id="cardapio">
             <div class="container">
                 <div class="row">
-                    <h2 class="section-title text-center">Nosso <pan class="text-colored">cardapaio</pan></h2>
+                    <h2 class="section-title text-center mb-5">
+                        Nosso <pan class="text-colored">cardapaio</pan>
+                    </h2>
                     
                 </div>
             </div>
@@ -148,39 +150,85 @@
                     <button type="button"data-bs-toggle="tab" data-bs-target="#bebidas-alcoolicas" class="fw-bold text-start nav-link text-colored "> Bebidas alcoolicas</button>
                     <button type="button"data-bs-toggle="tab" data-bs-target="#entradas" class="fw-bold text-start nav-link text-colored "> Prato principal</button>
                     <button type="button"data-bs-toggle="tab" data-bs-target="#prato-principal" class="fw-bold text-start nav-link text-colored "> sobremesas</button>
-                    <button type="button"data-bs-toggle="tab" data-bs-target="#sobremesa" class="fw-bold text-start nav-link text-colored "> Entradas</button>
+                    <button type="button"data-bs-toggle="tab" data-bs-target="#sobremesas" class="fw-bold text-start nav-link text-colored "> Entradas</button>
                     </nav>
                 </aside>
                 <div class="col-md-10">
                     <div class="tab-content">
-                        <div class="tab-pane active" id="bebidas-sem-alcool">
+                        <div class="tab-pane" id="bebidas-sem-alcool">
+                        </div>
+                        <div class="tab-pane" id="bebidas-alcoolicas">
                             <div class="row">
                                 <div class="col-md-3">
-                                    <img class="d-block w-100" src="imagens/cardapio/bebidas/coca-cola.jpg"/>
-                                    <h5 class="text-colored fw-bold mt-2">coca-cola</h5>
+                                    <img class="d-block w-100" src="imagens/cardapio/bebidas/cerveja.jpg" alt="cerveja"/>
+                                    <h5 class="text-colored fw-bold mt-2">cerveja</h5>
                                     <p>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                     </p> 
-                                    <img class="d-block w-100" src="imagens/cardapio/bebidas/suco.jpg"/>
-                                    <h5 class="text-colored fw-bold mt-2">suco de laranja</h5>
+                                    <img class="d-block w-100" src="imagens/cardapio/bebidas/vinho.jpg" alt="vinho"/>
+                                    <h5 class="text-colored fw-bold mt-2">vinho</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p> 
                                 </div>
                             </div>
                         </div>
                 </div>
             </div>
-            <div class="tab-pane" id="bebidas-alcoolicas">
+            </div>
+            
+
+            <div class="tab-pane" id="Entradas">
                 <div class="row">
                     <div class="col-md-3">
-                        <img class="d-block w-100" src="imagens/cardapio/bebidas/cerveja.jpg" alt="cerveja"/>
-                        <h5 class="text-colored fw-bold mt-2">cerveja</h5>
+                        <img class="d-block w-100" src="imagens/cardapio/entradas/entrada.jpg" alt="entradas"/>
+                        <h5 class="text-colored fw-bold mt-2">Entradas</h5>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         </p> 
-                        <img class="d-block w-100" src="imagens/cardapio/bebidas/vinho.jpg" alt="vinho"/>
-                        <h5 class="text-colored fw-bold mt-2">vinho</h5>
+                        <img class="d-block w-100" src="imagens/cardapio/entradas/entrada.jpg" alt="entradas"/>
+                        <h5 class="text-colored fw-bold mt-2">Entradas</h5>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     </div>
+                </div>
+            </div>
+
+            <div class="col-md-10">
+                <div class="tab-content">
+                    <div class="tab-pane active" id="pratos-principais">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="imagens/cardapio/pratos/pizza.jpg"/>
+                                <h5 class="text-colored fw-bold mt-2">pizza</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p> 
+                                <img class="d-block w-100" src="imagens/cardapio/pratos/salmao.jpg"/>
+                                <h5 class="text-colored fw-bold mt-2">salmao</h5>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="col-md-10">
+            <div class="tab-content">
+                <div class="tab-pane active" id="sobremesas">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img class="d-block w-100" src="imagens/cardapio/sobremesas/bolo.jpg"/>
+                            <h5 class="text-colored fw-bold mt-2">bolo</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p> 
+                            <img class="d-block w-100" src="imagens/cardapio/sobremesas/cupcake.jpg"/>
+                            <h5 class="text-colored fw-bold mt-2">cupcake</h5>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
         </section>
     
     

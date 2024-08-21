@@ -23,7 +23,7 @@ body {
 .section-title {
     font-family: pacifico, cursive;
 }
-#sobre-o-restaurante {
+#sobre-o-restaurante, #cardapio {
     background-color: #ffeae6;
 }
 .text-colored {
