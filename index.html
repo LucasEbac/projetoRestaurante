@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <header class="navbar navbar-expend-lg sticky-top pt-4" id="cabecalho">
+    <header class="navbar navbar-expend-lg sticky-top pt-4 " id="cabecalho">
         <div class="container">
             <h1 class="navbar-brand m-0 section-title">Brasileirissimo</h1>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
@@ -45,7 +45,7 @@
         </div>
         </header>
         <div data-bs-spy="scroll" data-bs-target="cabecalho">
-            <section id="sobre-o-restaurante">
+            <section id="sobre-o-restaurante pt-5 pb-5 text-colored">
                 <div class="carousel slide" data-bs-ride="carousel" id="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="3000">
@@ -134,7 +134,7 @@
         </div>
         </section>
     
-        <section id="cardapio">
+        <section id="cardapio pt-5 pb-5">
             <div class="container">
                 <div class="row">
                     <h2 class="section-title text-center mb-5">
@@ -229,6 +229,75 @@
                 </div>
         </div>
     </div>
+        </section>
+        <section id="fale-conosco pb-5 pt-5">
+            <div class="container">
+                <div class="row">
+                <h2 class="section-title text-center"> Fale <span class="text-colored">conosco</span></h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-7">
+                <form>
+                    <div class="mb-3">
+                        <label for="nome" class="form-label fw-bold text-colored">Seu nome </labe>
+                            <input type="text" id="nome" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="e-mail" class="form-label fw-bold text-colored">Seu e-mail </labe>
+                            <input type="email" id="email" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="telefone" class="form-label fw-bold text-colored">Seu telefone(opicional) </labe>
+                            <input type="tel" id="telefone" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensagem" class="form-label fw-bold text-colored">Deixe sua mensagem </labe>
+                        <textarea class="form-control" id="mensagem" required></textarea>
+                    </div>
+                    <button type="submit" class="btn fw-bold"> Enviar</button>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-5">
+            <div class="row">
+                <h3 class="section-title fs-4 text-colored">
+                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                    Redes sociais
+                </h3>
+                <ul class="social-links">
+                    <li class="fs-4 ms-1 me-1">
+                        <a href="#">
+                            <i class="bi bi-facebook text-colored"></i>
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="fs-4 ms-1 me-1">
+                        <a href="#">
+                            <i class="bi bi-instagram text-colored"></i>
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="fs-4 ms-1 me-1">
+                        <a href="#">
+                            <i class="bi bi-whatsapp text-colored"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="row mt-4">
+                <h3 class="section-title fs-4 text-colored">
+                    <i class="bi bi-cursor-fill"></i>
+                    Endereço
+                </h3>
+                    <p>
+                        Rua bla bla nº145 cidade bootstrap
+                    </p>
+                
+            </div>
+        </div>
         </section>
     
     
