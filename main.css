@@ -13,8 +13,7 @@ body {
 }
 #cabecalho .nav .nav-link,
 .navbar-brand,
-.navbar-brand:hover,
-.nav-cardapio .nav-link.active:hover {
+.navbar-brand:hover {
     color: #fff;
 }
 .navbar-toggler {
@@ -43,4 +42,7 @@ body {
 }
 .social-links a {
     text-decoration: none;
+}
+.nav-cardapio .nav-link.active:hover {
+    color: #e15f41;
 }
