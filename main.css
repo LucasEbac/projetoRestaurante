@@ -22,11 +22,15 @@ body {
 .section-title {
     font-family: pacifico, cursive;
 }
-#sobre-o-restaurante, #cardapio {
-    background-color: #ffeae6;
-}
+
 .text-colored {
     color: #e15f41;
+}
+.sobre-o-restaurante{
+    background-color: #ffeae6;
+}
+.cardapio {
+    background-color: #ffeae6;
 }
 .nav-cardapio .nav-link.active,
 #fale-conosco button {
